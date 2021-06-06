@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(24, 23, 23);
+    color: ivory;
+}
+
+.construcao {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border: rgb(7, 208, 223);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 100px;
+}
+
+#imgConstrucao {
+    border: rgb(7, 208, 223);
+    border-width: 2px;
+    border-style: solid;
+}    
