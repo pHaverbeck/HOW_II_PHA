@@ -24,9 +24,43 @@ body {
 
 .nav {
     background-color: black;
-    padding: 2%;
+    padding: 1%;
 }
 
 .nav-link {
     color: rgb(3, 229, 245);
+    font-size: 40px;
+    padding: 1%;
+}
+
+.Logo {
+    padding: 1%;
+}
+
+.sobre {
+    color: snow;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#fotoPaulo {
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: rgb(7, 208, 223);
+    border-style: solid;
+    width: 30%;
+    height: 40%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: monospace;
 }
