@@ -33,8 +33,15 @@ body {
     padding: 1%;
 }
 
+.nav-media {
+    color: rgb(3, 229, 245);
+    font-size: 40px;
+    padding: 1%;
+}
+
 .Logo {
     padding: 1%;
+    padding-right:6%
 }
 
 .sobre {
