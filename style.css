@@ -2,6 +2,8 @@ body {
     background-color: rgb(24, 23, 23);
     color:rgb(7, 208, 223);
     font-family: 'Odibee Sans', cursive, monospace;
+    height: 3550px; /* Used to enable scrolling */
+    background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(69, 74, 75) 51%, rgb(20, 20, 20) 85%);
 }
 
 
@@ -9,23 +11,6 @@ a:hover {
     color:gold;
 }
 
-.construcao {
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    border: rgb(7, 208, 223);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    padding: 100px;
-}
-
-#imgConstrucao {
-    border: rgb(7, 208, 223);
-    border-width: 2px;
-    border-style: solid;
-}    
 
 #curriculum {
     border: rgb(7, 208, 223);
@@ -36,32 +21,7 @@ a:hover {
     margin-top: 10%;
 }
 
-/*
-.nav {
-    background-color: black;
-    padding: 1%;
-    position:fixed;
-    top: 0px;
-    width: 100%;
-}
 
-.nav-link {
-    color: rgb(3, 229, 245);
-    font-size: 3rem;
-    padding: 1%;
-}
-
-.nav-media {
-    color: rgb(3, 229, 245);
-    font-size: 3rem;
-    padding: 1%;
-}
-
-.nav-logo {
-    padding: 1%;
-}
-
-*/
 #sobre {
     color: snow;
     padding-top: 5%;
@@ -134,7 +94,8 @@ p.jobsparend {
 }
 
 footer{
-    background-color: black;
+    background-color: black; 
+    text-align: center;
 }
 
 .btn {
@@ -153,13 +114,19 @@ footer{
 
 #download {
     text-align: center;
-    padding: 10%;
+    padding: 1%;
 }
 
 
 #contato {
     text-align: center;
-    padding: 10%;
+    padding: 1%;
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 .topnav {
@@ -181,7 +148,7 @@ footer{
 }
 
 .bi {
-    float: right;
+    float: center;
     text-align: center;
     color: rgb(7, 208, 223);
     text-align: center;
@@ -192,6 +159,11 @@ footer{
 
 .bi:hover {
     color: gold;
+}
+
+.socials {
+    text-align: center;
+    float: right;
 }
 
 .topnav a:hover {
