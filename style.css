@@ -133,8 +133,10 @@ footer{
     background-color: black;
     overflow: hidden;
     position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
+   
 }
 
 .topnav a {
@@ -144,7 +146,7 @@ footer{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .bi {
@@ -161,10 +163,30 @@ footer{
     color: gold;
 }
 
-.socials {
-    text-align: center;
-    float: right;
+#logo {
+    display: inline;
+    float: left;
+    padding-right: 80px;
+    padding-left: 40px;
 }
+
+.socials {
+    display: inline;
+    float: right;
+    margin-top: 20px !important;
+}
+
+.sections {
+    display: inline-block;
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+}
+
+.sections a {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 .topnav a:hover {
     color: gold;
@@ -178,8 +200,8 @@ footer{
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+@media screen and (max-width: 1100px) {
+    .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -187,7 +209,7 @@ footer{
     .dischard {display: none}
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
 .topnav.responsive {position: relative;}
 .topnav.responsive a.icon {
     position: absolute;
