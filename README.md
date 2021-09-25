@@ -1,6 +1,6 @@
-# HOW_II_PHA
+# Portfolio PHA
 
-Diretório de publicação do Hands On Work II
+Diretório de publicação do Hands On Work
 
 Objetivo: Website de portfólio pessoal
 
